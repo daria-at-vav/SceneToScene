@@ -1,10 +1,15 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Tilemaps;
 
 public class PlayerController : MonoBehaviour
 {
     public float movementSpeed;
+    // tilemap that things that cannot be walked on/under are placed on
+    public Tilemap solidTilemap;
+    // offset because the rounding in isMovable tile messes up the y position
+    public Vector3Int add;
 
     private bool isMoving;
     private Vector2 input;
@@ -40,7 +45,11 @@ public class PlayerController : MonoBehaviour
                 targetPos.x += input.x;
                 targetPos.y += input.y;
 
-                StartCoroutine(Move(targetPos));
+                // if the tile the player wants to walk on is able to be walked on then move the player to that tile
+                if (isWalkable(targetPos))
+                {
+                    StartCoroutine(Move(targetPos));
+                }
             }
 
         
@@ -66,5 +75,19 @@ public class PlayerController : MonoBehaviour
         transform.position = targetPos;
         // player is no longer moving
         isMoving = false;
+    }
+
+    private bool isWalkable(Vector3 target)
+    {
+        // if the target tile position exists in the solid tilemap the tile is not walkable
+        if (solidTilemap.GetTile(Vector3Int.FloorToInt(target) + add) != null)
+        {
+            print("BONK!");
+            return false;
+        }
+            
+        // else tile is walkable
+        else
+            return true;
     }
 }

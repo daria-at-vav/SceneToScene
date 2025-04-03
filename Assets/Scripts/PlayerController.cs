@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float movementSpeed;
     // tilemap that things that cannot be walked on/under are placed on
     public Tilemap solidTilemap;
+    public Tilemap objectTilemap;
     // offset because the rounding in isMovable tile messes up the y position
     public Vector3Int add;
 
@@ -85,7 +86,7 @@ public class PlayerController : MonoBehaviour
             print("BONK!");
             return false;
         }
-            
+
         // else tile is walkable
         else
             return true;

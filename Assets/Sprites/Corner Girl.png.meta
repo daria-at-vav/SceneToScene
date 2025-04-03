@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Corner Girl_0: 2965391982394555
+      Corner Girl_1: -7033655422789565931
+      Corner Girl_2: 3320107055962152285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

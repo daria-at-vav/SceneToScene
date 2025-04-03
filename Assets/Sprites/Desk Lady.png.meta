@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desk Lady_0: -594409779983868176
+      Desk Lady_1: -6639762982798484275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

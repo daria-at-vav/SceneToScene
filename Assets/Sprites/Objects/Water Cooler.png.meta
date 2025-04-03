@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: cca7870d7e8f4304bbc10da4734b2e2c
+guid: c872537ef5faca44698f18adfd79ce14
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1850988681521255122
-    second: Coffee_0
+      213: -5342912270014563851
+    second: Water Cooler_0
   - first:
-      213: -7134575736312797528
-    second: Coffee_1
+      213: -7484650316622583354
+    second: Water Cooler_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coffee_0
+      name: Water Cooler_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 15
+        x: 0
+        y: 0
         width: 16
-        height: 17
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2d28a2e997ff46e0800000000000000
-      internalID: -1850988681521255122
+      spriteID: 5f9b4bf29992ad5b0800000000000000
+      internalID: -5342912270014563851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coffee_1
+      name: Water Cooler_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 15
-        width: 14
-        height: 17
+        x: 16
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a664fd1b25ecfc90800000000000000
-      internalID: -7134575736312797528
+      spriteID: 6c922b1413e212890800000000000000
+      internalID: -7484650316622583354
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d2996928c9c7a304888cd26714463859
     internalID: 0
     vertices: []
     indices: 
@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Water Cooler_0: -5342912270014563851
+      Water Cooler_1: -7484650316622583354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 9fc93a64256a2b442b30f26c74f8c510
+guid: bf3bdbcc575f59049a172f0475a06616
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7029480912433025314
-    second: CreepWeirdoEven_0
+      213: -713470533891115996
+    second: Frosk Drink_0
+  - first:
+      213: 4992034013651365726
+    second: Frosk Drink_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CreepWeirdoEven_0
+      name: Frosk Drink_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 16
         width: 16
-        height: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,74 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ede6a0b9a54427e90800000000000000
-      internalID: -7029480912433025314
+      spriteID: 42436bd545e3916f0800000000000000
+      internalID: -713470533891115996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CreepWeirdoEven_1
+      name: Frosk Drink_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 16
         width: 16
-        height: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8d6d6e2bfe60beb4ca33397a0237abd2
-      internalID: -1578402821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CreepWeirdoEven_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9c4a40b2c7ad444082c7d3d9c10d483
-      internalID: 1024743213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CreepWeirdoEven_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8da7e495cb6002c4abc70a567e128925
-      internalID: 1497477009
+      spriteID: e5f6b5a8c74474540800000000000000
+      internalID: 4992034013651365726
       vertices: []
       indices: 
       edges: []
@@ -204,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9dbe88c530cb40f44b26f4db272e310d
+    spriteID: 19106301d80101142a7bcba92ce53aa4
     internalID: 0
     vertices: []
     indices: 
@@ -214,10 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CreepWeirdoEven_0: -7029480912433025314
-      CreepWeirdoEven_1: -1578402821
-      CreepWeirdoEven_2: 1024743213
-      CreepWeirdoEven_3: 1497477009
+      Frosk Drink_0: -713470533891115996
+      Frosk Drink_1: 4992034013651365726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

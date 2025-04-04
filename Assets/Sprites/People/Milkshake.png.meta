@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: e8ec33b081ffc1c41bac77df8c3424ca
+guid: 2f075f3946001d54cabce2656e2a74de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2965391982394555
-    second: Corner Girl_0
+      213: 5217416092606924499
+    second: Milkshake_0
   - first:
-      213: -7033655422789565931
-    second: Corner Girl_1
+      213: 3510641321696993112
+    second: Milkshake_1
   - first:
-      213: 3320107055962152285
-    second: Corner Girl_2
+      213: -1669130382074588522
+    second: Milkshake_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,56 +119,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Corner Girl_0
+      name: Milkshake_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
+        y: 32
         width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bbcfabf12098a0000800000000000000
-      internalID: 2965391982394555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Corner Girl_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 15
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 512c02ca8af636e90800000000000000
-      internalID: -7033655422789565931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Corner Girl_2
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 0
-        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -178,8 +134,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5d54e6d6c3631e20800000000000000
-      internalID: 3320107055962152285
+      spriteID: 3d60e3d0b4cf76840800000000000000
+      internalID: 5217416092606924499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Milkshake_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f9e819ead48b030800000000000000
+      internalID: 3510641321696993112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Milkshake_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692d1acc2ce06d8e0800000000000000
+      internalID: -1669130382074588522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Milkshake_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426f34bbc2bcb0d4bbaf3853e899ac81
+      internalID: 1811233737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Milkshake_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43cb2d7a2393f24f8eb47fa746b9128
+      internalID: -1097880070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Milkshake_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ffe3302748db84b8c84851885ef9ce
+      internalID: -1300088197
       vertices: []
       indices: 
       edges: []
@@ -188,7 +254,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e39bc324f95025146946fac6f312af78
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +264,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Corner Girl_0: 2965391982394555
-      Corner Girl_1: -7033655422789565931
-      Corner Girl_2: 3320107055962152285
+      Milkshake_0: 5217416092606924499
+      Milkshake_1: 3510641321696993112
+      Milkshake_2: -1669130382074588522
+      Milkshake_3: 1811233737
+      Milkshake_4: -1097880070
+      Milkshake_5: -1300088197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

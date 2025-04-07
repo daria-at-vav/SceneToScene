@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d87d450c5195874ea4145bd4e6fad16, type: 3}
-  m_Name: Mice
+  m_Name: Rat
   m_EditorClassIdentifier: 
   speakerName: 
   paragraphs:

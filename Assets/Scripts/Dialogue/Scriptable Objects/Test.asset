@@ -15,6 +15,5 @@ MonoBehaviour:
   speakerName: Test
   paragraphs:
   - Lorem Ipsum et cetera et cetera
-  - 'Lorem Ipsum et cetera et cetera 2 babeyyyy
-
-'
+  - "Lorem Ipsum et cetera et cetera 2 babeyyyy making this longer so i can test
+    out end paragraph early blah blah blah \n"

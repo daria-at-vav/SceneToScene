@@ -6,12 +6,12 @@ public class CoffeeMan : NonPlayerObject, ITalkable
     [SerializeField] private DialogueControllerScript dialogueController;
     public override void Interact()
     {
-        throw new System.NotImplementedException();
+        Talk(dialogueText);
     }
 
     public void Talk(DialogueText text)
     {
-        throw new System.NotImplementedException();
+        dialogueController.DisplayNextParagraph(text);
     }
 
     

@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
                 targetPos.y += input.y;
 
                 // if the tile the player wants to walk on is able to be walked on then move the player to that tile
-                if (isWalkable(targetPos))
+                if (IsWalkable(targetPos))
                 {
                     StartCoroutine(Move(targetPos));
                 }
@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
         isMoving = false;
     }
 
-    private bool isWalkable(Vector3 target)
+    private bool IsWalkable(Vector3 target)
     {
         // if the target tile position exists in the solid tilemap the tile is not walkable
         if (solidTilemap.GetTile(Vector3Int.FloorToInt(target) + add) != null)

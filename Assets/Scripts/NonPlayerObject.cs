@@ -10,7 +10,7 @@ public abstract class NonPlayerObject : MonoBehaviour, IInteractable
     private float interactDistance = 2f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected void Start()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
     }

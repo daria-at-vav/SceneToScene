@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7936220794433175891}
   - component: {fileID: 6868410799424112898}
   - component: {fileID: 8299826942729348001}
+  - component: {fileID: 8101747189547990804}
   m_Layer: 0
   m_Name: Water Cooler
   m_TagString: Untagged
@@ -134,3 +135,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3, y: 2.9999998}
   m_EdgeRadius: 0
+--- !u!114 &8101747189547990804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6784614130307235294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0acb734ff33c34ea19cd1408e52b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

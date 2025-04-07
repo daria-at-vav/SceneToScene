@@ -259,5 +259,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactableIndicator: {fileID: 6218766186319962987}
-  dialogueText: {fileID: 11400000, guid: fa5b4b3c725103b45a2b3387c2f3af8a, type: 2}
+  dialogueText: {fileID: 11400000, guid: 4c57b5272a1bb4841a57085925fd28e7, type: 2}
   dialogueController: {fileID: 0}

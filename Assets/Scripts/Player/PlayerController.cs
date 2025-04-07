@@ -1,4 +1,5 @@
 using System.Collections;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Tilemaps;
@@ -6,12 +7,14 @@ using UnityEngine.Tilemaps;
 public class PlayerController : MonoBehaviour
 {
     public float movementSpeed;
+    public const float MOVEMENT_SPEED = 5f;
     // tilemap that things that cannot be walked on/under are placed on
     public Tilemap solidTilemap;
     // offset because the rounding in isMovable tile messes up the y position
     public Vector3Int add;
 
     private bool isMoving;
+    private bool isFrozen = false;
     private Vector2 input;
     private Animator animator;
 
@@ -31,8 +34,8 @@ public class PlayerController : MonoBehaviour
             // removes diagonal movement
             if (input.x != 0) input.y = 0;
             
-            // if there is input
-            if (input != Vector2.zero)
+            // if there is input and Frosk isnt frozen
+            if (input != Vector2.zero && !isFrozen)
             {
                 // tells the animator which way the player is moving
                 animator.SetFloat("MoveX", input.x);
@@ -89,5 +92,17 @@ public class PlayerController : MonoBehaviour
         // else tile is walkable
         else
             return true;
+    }
+
+    public void Freeze() 
+    {
+        movementSpeed = 0;
+        isFrozen = true;
+    }
+
+    public void Unfreeze() 
+    {
+        movementSpeed = MOVEMENT_SPEED;
+        isFrozen = false;
     }
 }

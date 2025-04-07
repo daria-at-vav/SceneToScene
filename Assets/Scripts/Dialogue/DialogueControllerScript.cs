@@ -8,6 +8,7 @@ public class DialogueControllerScript : MonoBehaviour
     [SerializeField] private TextMeshProUGUI nameText;
     [SerializeField] private TextMeshProUGUI messageText;
     [SerializeField] private float typeSpeed = 10;
+    [SerializeField] private PlayerController playerController;
     private float MAX_TYPE_TIME = 0.1f;
 
 
@@ -55,6 +56,7 @@ public class DialogueControllerScript : MonoBehaviour
 
     private void StartConvo(DialogueText dialogueText)
     {
+        playerController.Freeze();
         if(!gameObject.activeSelf)
         {
             gameObject.SetActive(true);
@@ -74,7 +76,7 @@ public class DialogueControllerScript : MonoBehaviour
     private void EndConvo()
     {
         // clear queue
-
+        playerController.Unfreeze();
         gameObject.SetActive(false);
         conversationEnded = true;
 

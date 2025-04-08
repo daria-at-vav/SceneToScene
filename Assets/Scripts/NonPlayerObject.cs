@@ -5,7 +5,7 @@ public abstract class NonPlayerObject : MonoBehaviour, IInteractable
 {
 
     [SerializeField] private SpriteRenderer interactableIndicator;
-    private bool interactable = false;
+    protected bool interactable = false;
     private  Transform playerTransform;
     private float interactDistance = 2f;
 

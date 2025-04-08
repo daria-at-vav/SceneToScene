@@ -12003,6 +12003,8 @@ MonoBehaviour:
   interactableIndicator: {fileID: 602337121}
   dialogueText: {fileID: 11400000, guid: 9e60db0432b409f469999ce6cdd29428, type: 2}
   dialogueController: {fileID: 1974768200}
+  playerController: {fileID: 1744375351}
+  runAwaySprite: {fileID: 0}
 --- !u!1 &1012846429
 GameObject:
   m_ObjectHideFlags: 0

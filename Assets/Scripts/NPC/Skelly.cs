@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEditor.Search;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ public class Skelly : NonPlayerObject, ITalkable
     [SerializeField] private DialogueText dialogueText;
     [SerializeField] private DialogueControllerScript dialogueController;
     [SerializeField] private Sprite fallenSprite;
+    
 
     private SpriteRenderer spriteRenderer;
 
@@ -28,6 +30,8 @@ public class Skelly : NonPlayerObject, ITalkable
     {
         dialogueController.DisplayNextParagraph(text);
     }
+
+
 
 
 }

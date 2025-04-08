@@ -1,20 +1,55 @@
+using System.Collections;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class Creep : NonPlayerObject, ITalkable
 {
     [SerializeField] private DialogueText dialogueText;
     [SerializeField] private DialogueControllerScript dialogueController;
+    [SerializeField] private PlayerController playerController;
 
+    private Coroutine runAwayCoroutine;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
+    private int interactCount = 0;
+
+    new void Start()
+    {
+        base.Start();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        animator.StopPlayback();
+    }
 
     public override void Interact()
     {
-        Talk(dialogueText);
+        if (interactCount == 0) 
+        {
+            animator.StartPlayback();
+            runAwayCoroutine = StartCoroutine(RunAway());
+        }
+        else if (interactCount < 3)
+        {
+            Talk(dialogueText);
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
         print("interacted");
+        interactCount++;
     }
 
     public void Talk(DialogueText text)
     {
         dialogueController.DisplayNextParagraph(text);
+    }
+    private IEnumerator RunAway()
+    {
+        interactable = false;
+        animator.StartPlayback();
+        yield return null;
+        interactable = true;
     }
 
 }

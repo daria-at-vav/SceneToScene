@@ -886,6 +886,7 @@ MonoBehaviour:
   interactableIndicator: {fileID: 1096503740}
   dialogueText: {fileID: 11400000, guid: fcc71fbb733235c41bc34295a111604b, type: 2}
   dialogueController: {fileID: 1555318823}
+  endScene: EndScene
 --- !u!1001 &976434266
 PrefabInstance:
   m_ObjectHideFlags: 0

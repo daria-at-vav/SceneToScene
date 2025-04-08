@@ -56,7 +56,11 @@ public class DialogueControllerScript : MonoBehaviour
 
     private void StartConvo(DialogueText dialogueText)
     {
-        playerController.Freeze();
+        if(playerController != null)
+        {
+            playerController.Freeze();
+        }
+        
         if(!gameObject.activeSelf)
         {
             gameObject.SetActive(true);
@@ -76,7 +80,11 @@ public class DialogueControllerScript : MonoBehaviour
     private void EndConvo()
     {
         // clear queue
-        playerController.Unfreeze();
+        if(playerController != null)
+        {
+            playerController.Unfreeze();
+        }
+        
         gameObject.SetActive(false);
         conversationEnded = true;
 

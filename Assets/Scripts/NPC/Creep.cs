@@ -26,8 +26,6 @@ public class Creep : NonPlayerObject, ITalkable
         if (interactCount == 0) 
         {
             animator.SetBool("Interact", true);
-            //animator.StartPlayback();
-            //runAwayCoroutine = StartCoroutine(RunAway());
             Talk(dialogueText);
         }
         else if (interactCount < 3)

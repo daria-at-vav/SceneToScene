@@ -9,7 +9,7 @@ public class Skelly : NonPlayerObject, ITalkable
 
     private SpriteRenderer spriteRenderer;
 
-    void Start()
+    new void Start()
     {
         base.Start();
         spriteRenderer = GetComponent<SpriteRenderer>();

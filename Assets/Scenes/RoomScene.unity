@@ -998,6 +998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus
       objectReference: {fileID: 0}
+    - target: {fileID: 3994208371288695006, guid: c4ee8a6b33a978144bdcce527fcc64c9, type: 3}
+      propertyPath: dialogueController
+      value: 
+      objectReference: {fileID: 1555318823}
     - target: {fileID: 4080962302774019451, guid: c4ee8a6b33a978144bdcce527fcc64c9, type: 3}
       propertyPath: m_SortingLayer
       value: 3

@@ -3,13 +3,18 @@ using UnityEngine;
 public class Radio : NonPlayerObject, ITalkable
 {
     [SerializeField] private DialogueText dialogueText;
-    [SerializeField] private DialogueControllerScript dialogueController;
-    //[SerializeField] private audio something 
+    [SerializeField] private DialogueControllerScript dialogueController; 
 
     private AudioSource audioSource;
     private bool conversationEnded = false;
     private bool audioOn = true;
     private int interactCounter = 0;
+
+    new void Start()
+    {
+        base.Start();
+        audioSource = GetComponent<AudioSource>();
+    }
 
     public override void Interact()
     {

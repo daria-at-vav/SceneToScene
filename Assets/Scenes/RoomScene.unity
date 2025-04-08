@@ -792,6 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 955100072}
   - component: {fileID: 955100071}
+  - component: {fileID: 955100073}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
@@ -866,9 +867,25 @@ Transform:
   m_LocalPosition: {x: 4.5, y: -28.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1096503741}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &955100073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955100070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff68a09cbcc666948b1bc62a23a5f583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableIndicator: {fileID: 1096503740}
+  dialogueText: {fileID: 11400000, guid: fcc71fbb733235c41bc34295a111604b, type: 2}
+  dialogueController: {fileID: 1555318823}
 --- !u!1001 &976434266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -946,6 +963,73 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
+--- !u!1001 &1096503739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 955100072}
+    m_Modifications:
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2981126462731651190, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+      propertyPath: m_Name
+      value: InteractObject
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+--- !u!212 &1096503740 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8740043926474601195, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+  m_PrefabInstance: {fileID: 1096503739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1096503741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1866664792591948352, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
+  m_PrefabInstance: {fileID: 1096503739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1099781546
 PrefabInstance:
   m_ObjectHideFlags: 0

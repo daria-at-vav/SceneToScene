@@ -152,8 +152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableIndicator: {fileID: 1230004584}
   dialogueText: {fileID: 11400000, guid: 9e60db0432b409f469999ce6cdd29428, type: 2}
-  dialogueController: {fileID: 0}
-  playerController: {fileID: 0}
+  dialogueController: {fileID: 653893495}
+  playerController: {fileID: 648445053}
 --- !u!95 &150004275
 Animator:
   serializedVersion: 7
@@ -562,67 +562,6 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8740043926474601195, guid: 41c7e3db34d20d745bcc6a880b982fe5, type: 3}
   m_PrefabInstance: {fileID: 549035850}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &644422844
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -3037857138751928914, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: dialogueController
-      value: 
-      objectReference: {fileID: 653893495}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 27.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -21.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027457024136983371, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4763005795119095889, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
-      propertyPath: m_Name
-      value: Broken Water Cooler
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 92893e4dbcb11c7408ea9371e6baec0e, type: 3}
 --- !u!1 &648445049
 GameObject:
   m_ObjectHideFlags: 0
@@ -19967,5 +19906,4 @@ SceneRoots:
   - {fileID: 648445055}
   - {fileID: 1009125209}
   - {fileID: 233049857}
-  - {fileID: 644422844}
   - {fileID: 150004277}

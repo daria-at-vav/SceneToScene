@@ -28,7 +28,7 @@ public class GovFolder : NonPlayerObject, ITalkable
         }
 
         interactCounter++;
-        conversationEnded = interactCounter > 3;
+        conversationEnded = interactCounter > 1;
     }
 
     public void Talk(DialogueText text)

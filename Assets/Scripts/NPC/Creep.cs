@@ -25,34 +25,31 @@ public class Creep : NonPlayerObject, ITalkable
     {
         if (interactCount == 0) 
         {
-            animator.SetBool("Interact", true);
-            //animator.StartPlayback();
-            //runAwayCoroutine = StartCoroutine(RunAway());
-            Talk(dialogueText);
+            animator.StartPlayback();
+            runAwayCoroutine = StartCoroutine(RunAway());
         }
         else if (interactCount < 3)
         {
             Talk(dialogueText);
-
-            if (interactCount == 2) {
-                animator.SetBool("Runaway", true);
-                ExitCreep();
-            }
         }
-        
+        else
+        {
+            gameObject.SetActive(false);
+        }
         print("interacted");
-        interactCount++;        
+        interactCount++;
     }
 
     public void Talk(DialogueText text)
     {
         dialogueController.DisplayNextParagraph(text);
     }
-
-    private IEnumerator ExitCreep()
+    private IEnumerator RunAway()
     {
-        yield return new WaitForSeconds(1);
-        gameObject.SetActive(false);
+        interactable = false;
+        animator.StartPlayback();
+        yield return null;
+        interactable = true;
     }
 
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEditor.Animations;
 using UnityEngine;
 
-public class GuyTM : NonPlayerObject, ITalkable
+public class Milkshake : NonPlayerObject, ITalkable
 {
     [SerializeField] private DialogueText dialogueText;
     [SerializeField] private DialogueControllerScript dialogueController;
@@ -18,38 +18,21 @@ public class GuyTM : NonPlayerObject, ITalkable
     public override void Interact() {
         
         if (interactCount == 0) {
+            animator.SetBool("Talking", true);
             Talk(dialogueText);
             print("interacted");
-            interactCount++;
+            interactCount++; 
 
-        } else if (interactCount == 1) {
-            animator.SetBool("bored", true);
+        } else if (interactCount == 5) {
             Talk(dialogueText);
+            animator.SetBool("Talking", false);
             print("interacted");
-            interactCount++;
-
-        } else if (interactCount == 2) {
-            animator.SetBool("bored", false);
-            Talk(dialogueText);
-            print("interacted");
-            interactCount++;
-
-        } else if (interactCount == 4){
-            animator.SetBool("bored", true);
-            Talk(dialogueText);
-            print("interacted");
-            interactCount++;
-
-        } else if (interactCount == 5){
-            animator.SetBool("bored", false);
-            Talk(dialogueText);
-            print("interacted");
-            interactCount = 0; 
-
+            interactCount = 0;
+            
         } else {
             Talk(dialogueText);
             print("interacted");
-            interactCount++;
+            interactCount++; 
         }  
     }
 

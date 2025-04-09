@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d87d450c5195874ea4145bd4e6fad16, type: 3}
+  m_Name: DeskLady
+  m_EditorClassIdentifier: 
+  speakerName: 
+  paragraphs:
+  - "Oh! Hello there! I haven\u2019t seen a fresh face in a while haha!\r\n"
+  - "I honestly don\u2019t know the last time I\u2019ve seen the sun\u2026 is it
+    nice out there? \r\n"
+  - "You must be on one great journey to willingly come all the way down here. \r\n"
+  - "Hmm? You\u2019re looking for stillwater? No! That isn\u2019t a silly dream at
+    all! It's better than whatever I\u2019m doing down here.\r\n"
+  - "Yeah, GuyTM can be a nuisance when he wants to. It\u2019s probably because he
+    lost his soul all those years ago\u2026\r\n"
+  - "But don\u2019t let his words get under your skin! You have a mighty goal ahead
+    of you! Don\u2019t let anyone (especially not GuyTM) tell you that it is a silly
+    passion to have.\r\n"

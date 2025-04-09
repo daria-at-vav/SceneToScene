@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: cbbe15b124e665d46a43a22280c5b50a
+  - enabled: 1
     path: Assets/Scenes/BadOfficeScene.unity
     guid: b650b30f13762f04ba42e0b26ed7c5b0
   - enabled: 1
@@ -14,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RoomScene.unity
     guid: d90304ccc2dbd184c93cefca766019cf
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 4cb71ad91e047b4498214bdbf25c6091
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

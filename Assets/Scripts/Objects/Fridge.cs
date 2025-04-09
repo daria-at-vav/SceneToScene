@@ -9,7 +9,6 @@ public class Fridge : NonPlayerObject, ITalkable
 
     private int interactCounter = 0;
 
-
     public override void Interact()
     {
         if(interactCounter < 5)

@@ -747,13 +747,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 578573476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6228d9212b4f7f4c94e522661b7dd09, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ff8f999a5d3e5f448a32853feee5d4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerLight: {fileID: 648445056}
   flashlightLit: {fileID: 716570741}
   offLightIntensity: 0.5
-  onlightIntensity: 1
+  onlightIntensity: 1.25
   offLightRadius: 3
   onlightRadius: 10
 --- !u!4 &578573478
